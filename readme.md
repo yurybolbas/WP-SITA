@@ -1,4 +1,4 @@
-Example for development and production configuraitons.
+Example for development and production webpack configuraitons.
 
 Install webpack locally to the project folder after cloning git project.
 
@@ -18,9 +18,19 @@ babel-core,
 babel-loader,
 babel-preset-env
 
-Source files are in src folder.
+Source files are in 'src' folder.
+
 index.js contains imports for common styles.
+
 ie.js contains import(s) for separate css bundle for IE. It's included to index.html with conditional comments.
 
-Source maps can be added/removed by adding/removing 'devtool: "source-map"' in the config file.
-Minificaiton of css is added using postcss-loader with postcss-clean plugin.
+Source map can be added/removed by adding/removing line 'devtool: "source-map"' in the config file.
+
+Minification of css is added using postcss-loader with postcss-clean plugin.
+
+Command for development: 'npm run dev'.
+Generated code is placed to 'dist' folder.
+
+Command for production: 'npm run build'.
+Generated code is placed to 'prod' folder.
+
