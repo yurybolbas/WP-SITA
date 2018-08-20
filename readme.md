@@ -3,19 +3,19 @@ Example for development and production configuraitons.
 Install webpack locally to the project folder after cloning git project.
 
 Install the following packages:
-webpack-dev-server
-webpack-cli
-html-webpack-plugin
-mini-css-extract-plugin
-clean-webpack-plugin
-style-loader
-css-loader
-postcss-clean
-postcss-loader
-sass-loader
-node-sass
-babel-core
-babel-loader
+webpack-dev-server,
+webpack-cli,
+html-webpack-plugin,
+mini-css-extract-plugin,
+clean-webpack-plugin,
+style-loader,
+css-loader,
+postcss-clean,
+postcss-loader,
+sass-loader,
+node-sass,
+babel-core,
+babel-loader,
 babel-preset-env
 
 Source files are in src folder.
