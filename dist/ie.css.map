@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/scss/iescss/ie.scss"],"names":[],"mappings":"AAAA;AACA,4BAA4B;AAC5B;AACA,gDAAgD","file":"ie.css","sourcesContent":["body {\n  background-color: #7fffd4; }\n  body:before {\n    content: 'this is Internet Explorer 9 or 8'; }\n"],"sourceRoot":""}

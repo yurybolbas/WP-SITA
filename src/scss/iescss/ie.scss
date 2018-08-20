@@ -1,0 +1,7 @@
+//add any styles you need for IE to use in separate bundle
+body {
+	background-color: #7fffd4;
+	&:before {
+		content: 'this is Internet Explorer 9 or 8';
+	}
+}
